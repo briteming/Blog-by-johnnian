@@ -20,8 +20,8 @@ jobs:
       run: python3 main.py
     - name: config git info
       env:
-        USERNAME: ${{ secrets.GIT_USERNAME }}
-        EMAIL: ${{ secrets.GIT_EMAIL }}
+        USERNAME: briteming
+        EMAIL: briteming@gmail.com
       run: |
         git config --global user.name $USERNAME
         git config --global user.email $EMAIL
